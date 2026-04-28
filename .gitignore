@@ -1,0 +1,16 @@
+.cursor/
+.vscode/
+__pycache__/
+**/.DS_Store
+# Notebook figure/text exports (written by analysis/chart_collection/extract_notebook_charts.py; local only, not versioned)
+analysis/chart_collection/
+
+# Jupyter (local checkpoints and kernels)
+**/.ipynb_checkpoints/
+
+# Local notebook exports (nbconvert PDF/HTML/webpdf; not versioned)
+analysis/**/*.pdf
+analysis/**/*.html
+dataset creation scripts/*.pdf
+dataset creation scripts/*.html
+exports/
