@@ -12,12 +12,12 @@ If you are interested in the resulting data from the experiments or have questio
 | Path | Purpose |
 |------|---------|
 | [data/](data/) | Contains the study dataset (long and wide versions), augmented from the German subset of [JobResQA benchmark](https://github.com/Avature/jobresqa-benchmark). |
-| [dataset creation scripts/](dataset%creation%scripts/) | Utilities used to prepare and augment the dataset, including the prompts used for each step in the augmentation. |
+| [dataset creation scripts/](dataset%20creation%scripts/) | Utilities used to prepare and augment the dataset, including the prompts used for each step in the augmentation. |
 | [experiments/](experiments/) | Runnable experiment definitions (`exp*.py`), shared config (`experiment_configs.py`), orchestration (`runner.py`, `run_experiments.ipynb`), and validation. The experiments include the translated German versions of the prompts used and the code for shaping the result data by model tested. |
 
 Paths listed in `.gitignore` (for example local editor settings and generated chart exports) are intentionally not versioned. 
 
-The [dataset creation scripts/](dataset%creation%scripts/) were crated iteratively, originally as individual scripts and part of a longer discovery phase. They were refactored in a runnable collection with the help of a coding assistant from the separate notebook scripts. There is an example notebook in the folder with saved output where some parts were rerun after the dataset creation to serve as example. However, the scripts are currently costly to run, and they can very likely be combined in a one shot for augmenting each row of original [JobResQA benchmark](https://github.com/Avature/jobresqa-benchmark).
+The [dataset creation scripts/](dataset%20creation%scripts/) were crated iteratively, originally as individual scripts and part of a longer discovery phase. They were refactored in a runnable collection with the help of a coding assistant from the separate notebook scripts. There is an example notebook in the folder with saved output where some parts were rerun after the dataset creation to serve as example. However, the scripts are currently costly to run, and they can very likely be combined in a one shot for augmenting each row of original [JobResQA benchmark](https://github.com/Avature/jobresqa-benchmark).
 
 There is a current plan to continue the work by including more languages and cultural perspectives than German, so the scripts will get an updated version.
 
